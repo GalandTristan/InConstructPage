@@ -1,0 +1,53 @@
+@font-face {
+    font-family: 'Comfortaa-VariableFont_wght';
+    src: url('font/Comfortaa-VariableFont_wght.ttf') format("truetype");
+}
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Comfortaa-VariableFont_wght';
+}
+body{
+    margin: 30px 145px;
+    font-family: 'Comfortaa-VariableFont_wght';
+    background-image: url(img/dotted.svg);
+    color: #242324;
+}
+body nav h1{
+    margin: 20px;
+    font-weight: 700;
+    font-size: 20px;
+    text-decoration: none;
+}
+body .contain{
+    margin: 250px;
+}
+body .contain img{
+    height: 98px;
+    width: 98px;
+}
+body .contain p{
+    margin-top: 30px;
+    font-weight: bold;
+    font-size: 32px;
+    width: 950px;
+    line-height: 161%;
+}
+body .contain p span{
+    color: #4FB08D;
+    
+}
+body .contain .rs{
+    display: flex;
+    margin-top: 30px;
+    
+}
+body .contain .rs a{
+    margin: 5px;
+    padding: 5px;
+    height: 44px;
+    width: 44px;
+}
+body .contain .rs a svg:hover *{
+    stroke: #4FB08D;
+}
