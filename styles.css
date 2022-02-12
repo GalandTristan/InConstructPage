@@ -8,69 +8,55 @@
     font-family: 'Comfortaa-VariableFont_wght';
 }
 body{
-    margin: 30px 145px;
     font-family: 'Comfortaa-VariableFont_wght';
     background-image: url(img/dotted.svg);
     color: #242324;
 }
-body nav h1{
-    margin: 20px;
+body .top h1{
+    margin: 2vw 8vw;
     font-size: 20px;
 }
-body .contain{
-    margin: 250px;
+body .info{
+    display: flex;
+    justify-content: center;
+    align-content: center;
 }
-body .contain img{
+body .info .contain {
+    margin: 10vh;
+}
+body .info .contain img{
     height: 98px;
     width: 98px;
 }
-body .contain p{
+body .info .contain p{
     margin-top: 30px;
     font-weight: bold;
     font-size: 32px;
-    width: 950px;
+    width: 50vw;
     line-height: 161%;
 }
-body .contain p span{
+body .info .contain p span{
     color: #4FB08D;
     
 }
-body .contain .rs{
+body .info .contain .rs{
     display: flex;
     margin-top: 30px;
     
 }
-body .contain .rs a{
+body .info .contain .rs a{
     margin: 5px;
     padding: 5px;
     height: 44px;
     width: 44px;
 }
-body .contain .rs a svg:hover *{
+body .info .contain .rs a:hover *{
     stroke: #4FB08D;
 }
-@media only screen and (max-width: 1000px) {
-    body {
-      margin: 0px;
-    }
-    body nav h1{
-        margin: 40px;
-        font-size: 35px;
-    }
-    body .contain{
-        margin: 100px 50px ;
-    }
-    body .contain p{
-        margin-top: 50px;
+@media only screen and (max-width: 800px) {
+    body .info .contain p {
         width: 80vw;
-        font-size: 35px;
-    }
-  }
-@media only screen and (max-width: 600px) {
-    body nav h1{
-        font-size: 28px;
-    }
-    body .contain p{
-        font-size: 28px;
+        
+    font-size: 28px;
     }
   }
