@@ -15,9 +15,7 @@ body{
 }
 body nav h1{
     margin: 20px;
-    font-weight: 700;
     font-size: 20px;
-    text-decoration: none;
 }
 body .contain{
     margin: 250px;
@@ -51,3 +49,24 @@ body .contain .rs a{
 body .contain .rs a svg:hover *{
     stroke: #4FB08D;
 }
+@media only screen and (max-width: 600px) {
+    body {
+      margin: 0px;
+    }
+    body nav h1{
+        margin: 40px;
+        font-size: 28px;
+    }
+    body .contain{
+        margin: 100px 50px ;
+    }
+    body .contain p{
+        margin-top: 50px;
+        width: 80vw;
+        font-size: 28px;
+    }
+    body .contain p span{
+        color: #4FB08D;
+        
+    }
+  }
