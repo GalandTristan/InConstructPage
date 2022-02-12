@@ -6,57 +6,52 @@
     margin: 0;
     padding: 0;
     font-family: 'Comfortaa-VariableFont_wght';
+    text-decoration: none;
 }
 body{
-    font-family: 'Comfortaa-VariableFont_wght';
     background-image: url(img/dotted.svg);
     color: #242324;
+    padding: 0 10px;
 }
-body .top h1{
-    margin: 2vw 8vw;
-    font-size: 20px;
+.title-container{
+    max-width: 1500px;
+    margin: 0 auto;
+    width: 100%;
 }
-body .info{
-    display: flex;
-    justify-content: center;
-    align-content: center;
+h1{
+    margin-top: 20px;
+    font-size: 1.2em;
 }
-body .info .contain {
-    margin: 10vh;
+.contain {
+    max-width: 800px;
+    width: 100%;
+    margin: 10em auto;
 }
-body .info .contain img{
-    height: 98px;
-    width: 98px;
+p{
+    font-size:2em;
+    line-height: 1.5em;
+    margin: 50px 0;
 }
-body .info .contain p{
-    margin-top: 30px;
-    font-weight: bold;
-    font-size: 32px;
-    width: 50vw;
-    line-height: 161%;
-}
-body .info .contain p span{
+p span{
     color: #4FB08D;
     
 }
-body .info .contain .rs{
+.rs{
     display: flex;
-    margin-top: 30px;
+    gap:20px;
     
 }
-body .info .contain .rs a{
-    margin: 5px;
-    padding: 5px;
-    height: 44px;
-    width: 44px;
-}
-body .info .contain .rs a:hover path{
+
+svg:hover path{
     stroke: #4FB08D;
 }
 @media only screen and (max-width: 800px) {
-    body .info .contain p {
-        width: 80vw;
-        
-    font-size: 28px;
+    .contain{
+        margin: 5em auto;
+    }
+    p {  
+    font-size: 1.5em;
     }
   }
+
+
