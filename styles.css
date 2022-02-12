@@ -50,7 +50,7 @@ body .info .contain .rs a{
     height: 44px;
     width: 44px;
 }
-body .info .contain .rs a:hover *{
+body .info .contain .rs a:hover path{
     stroke: #4FB08D;
 }
 @media only screen and (max-width: 800px) {
