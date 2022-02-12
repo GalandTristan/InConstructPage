@@ -49,13 +49,13 @@ body .contain .rs a{
 body .contain .rs a svg:hover *{
     stroke: #4FB08D;
 }
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 1000px) {
     body {
       margin: 0px;
     }
     body nav h1{
         margin: 40px;
-        font-size: 28px;
+        font-size: 35px;
     }
     body .contain{
         margin: 100px 50px ;
@@ -63,10 +63,14 @@ body .contain .rs a svg:hover *{
     body .contain p{
         margin-top: 50px;
         width: 80vw;
+        font-size: 35px;
+    }
+  }
+@media only screen and (max-width: 600px) {
+    body nav h1{
         font-size: 28px;
     }
-    body .contain p span{
-        color: #4FB08D;
-        
+    body .contain p{
+        font-size: 28px;
     }
   }
